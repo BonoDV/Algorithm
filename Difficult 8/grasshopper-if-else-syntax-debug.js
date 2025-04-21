@@ -5,6 +5,8 @@ checkAlive/CheckAlive/check_alive should return true if the player's health is g
 
 The function receives one parameter health which will always be a whole number between -10 and 10. */
 
+// https://www.codewars.com/kata/57089707fe2d01529f00024a/javascript
+
 function checkAlive(health) {
     if (health <= 0) {
         return false
